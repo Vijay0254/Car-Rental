@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .bg-pay{
+        background-image: url("../src/assets/bg-pay.png");
+        background-position: center;
+        background-size: cover;
+    }
+}
